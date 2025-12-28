@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="hidden md:block">
           <div className="w-full h-80 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400">
             <Image
-            src="/images/hero-image.jpg"
+            src="/hero-image.png"
             alt="Qur’an learning with Tajweed"
             width={600}
             height={400}
