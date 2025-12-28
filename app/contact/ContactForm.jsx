@@ -70,7 +70,7 @@ export default function ContactForm() {
 
         <div className="mt-8">
           <a
-            href="https://wa.me/923335692879"
+            href="https://wa.me/923304284284"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
@@ -140,7 +140,7 @@ export default function ContactForm() {
             {showWhatsapp && (
               <div className="text-center">
                 <a
-                  href="https://wa.me/923335692879?text=Assalamu Alaikum, I just submitted the contact form on Islamtec."
+                  href="https://wa.me/923304284284?text=Assalamu Alaikum, I just submitted the contact form on Islamtec."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary font-medium underline hover:text-primaryDark"

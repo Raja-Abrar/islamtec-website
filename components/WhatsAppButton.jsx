@@ -1,5 +1,5 @@
 export default function WhatsAppButton() {
-  const phone = "923335692879";
+  const phone = "923304284284";
   const message =
     "Assalamu Alaikum. I would like to learn more about Islamtec Qur’an & Tajweed programs.";
 
