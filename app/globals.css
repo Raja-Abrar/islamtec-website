@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           rounded-md bg-primary
+           px-6 py-2
+           text-sm font-medium text-white
+           transition hover:bg-primaryDark
+           disabled:opacity-60;
+  }
+    .btn-secondary {
+    @apply inline-flex items-center justify-center
+          rounded-md border border-primary text-primary 
+          px-6 py-3 
+          hover:bg-primary hover:text-white text-sm font-medium text-gray-700 hover:border-gray-400 transition;
+  }        
+}

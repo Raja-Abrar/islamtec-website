@@ -1,0 +1,196 @@
+Below is a clear, step-by-step, no-assumptions guide to deploy your Next.js (App Router + Tailwind) Islamtec website on Vercel, without a domain.
+
+This is written so you can follow it exactly.
+
+PART 1 — Prerequisites (5 minutes)
+1. Verify project runs locally
+
+From your project root:
+
+npm install
+npm run dev
+
+
+Open:
+
+http://localhost:3000
+
+
+If the site loads, proceed.
+
+2. Create a GitHub account (if you don’t have one)
+
+Go to github.com and sign up.
+
+You only need a free account.
+
+PART 2 — Push Project to GitHub
+3. Initialize Git in your project folder
+
+From project root:
+
+git init
+git add .
+git commit -m "Initial Islamtec website"
+
+4. Create a new GitHub repository
+
+Go to GitHub → New Repository
+
+Repository name:
+
+islamtec-website
+
+
+Visibility: Public (recommended for easy sharing)
+
+Do NOT add README, .gitignore, or license
+
+Click Create Repository
+
+5. Connect local project to GitHub
+
+GitHub will show commands. Use these:
+
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/islamtec-website.git
+git push -u origin main
+
+
+(Replace YOUR_USERNAME)
+
+PART 3 — Deploy on Vercel
+6. Create Vercel account
+
+Go to vercel.com
+
+Sign up using GitHub
+
+Authorize Vercel access
+
+7. Import project
+
+Click New Project
+
+Select islamtec-website repo
+
+Click Import
+
+Vercel will auto-detect:
+
+Framework: Next.js
+
+Build Command: next build
+
+Output: .next
+
+Do NOT change anything yet.
+
+PART 4 — Environment Variables (IMPORTANT)
+8. Add .env.local values
+
+If your project uses email/WhatsApp/contact API:
+
+In Vercel → Project → Settings → Environment Variables
+
+Add exactly what you have in .env.local, for example:
+
+Key	Value
+EMAIL_USER	your@gmail.com
+
+EMAIL_PASS	app_password
+ADMIN_EMAIL	admin@islamtec.org
+
+Environment: Production
+
+Click Save
+
+PART 5 — Deploy
+9. Deploy
+
+Click Deploy
+
+Wait ~1 minute.
+
+You will get a live URL like:
+
+https://islamtec-website.vercel.app
+
+PART 6 — Verify Everything
+10. Test live site
+
+Open the URL and check:
+
+Home page loads
+
+Navbar / Footer visible
+
+Contact form submits
+
+Email sends
+
+WhatsApp link opens
+
+If something fails → logs are in:
+
+Vercel → Project → Functions → Logs
+
+PART 7 — Sharing with Stakeholders
+
+Send this message:
+
+Assalamu Alaikum,
+We have published a preview of the Islamtec website for review.
+Please explore and share your feedback:
+
+🔗 https://islamtec-website.vercel.app
+
+JazakAllahu Khairan.
+
+PART 8 — Updating the Website (Very Important)
+
+Any time you make changes:
+
+git add .
+git commit -m "Updated content"
+git push
+
+
+Vercel will auto-deploy within seconds.
+
+Same URL. No extra steps.
+
+Common Mistakes to Avoid
+
+❌ Uploading node_modules
+❌ Forgetting environment variables
+❌ Deploying before content approval
+❌ Editing directly on Vercel
+
+Final Confirmation
+
+Once deployed, you will have:
+
+A public professional link
+
+No hosting cost
+
+No domain cost
+
+Instant updates
+
+Stakeholder-ready preview
+
+Next Logical Steps (After Deployment)
+
+Collect stakeholder feedback
+
+Freeze content
+
+Buy domain
+
+Enable SEO + analytics
+
+Launch officially
+
+If you want, I can stay with you during first deployment and troubleshoot live issues.
