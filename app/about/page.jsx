@@ -1,7 +1,7 @@
 export const metadata = {
   title: "About Islamtec",
   description:
-    "Islamtec is a dedicated Qur’an learning platform focused on Tajweed-based education for children and adults.",
+    "Islamtec is a dedicated online Qur’an learning platform focused on Tajweed-based education for children and adults.",
 };
 
 export default function AboutPage() {
@@ -23,8 +23,9 @@ export default function AboutPage() {
       <section className="py-24">
         <div className="mx-auto max-w-4xl px-6">
           <p className="text-lg leading-relaxed text-textLight">
-            Islamtec is a dedicated online Qur’an learning platform focused on
-            teaching the Holy Qur’an with{" "}
+            Islamtec is a dedicated online Qur’an learning platform providing
+            structured, live instruction focused on teaching the Holy Qur’an
+            with{" "}
             <span className="font-medium text-textDark">
               proper Tajweed
             </span>
@@ -44,9 +45,9 @@ export default function AboutPage() {
             </h2>
             <p className="leading-relaxed text-textLight">
               Our mission is to make authentic Qur’an education accessible to
-              learners worldwide by providing structured, Tajweed-focused
-              programs delivered in a disciplined, supportive, and respectful
-              learning environment.
+              learners worldwide through a structured online platform offering
+              Tajweed-focused programs delivered in a disciplined, supportive,
+              and respectful learning environment.
             </p>
           </div>
 
